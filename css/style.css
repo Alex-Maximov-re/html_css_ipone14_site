@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+    /* отключить подчеркивание */
+    color: inherit;
+    /* наследует цвет от родителя */
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* убрать точки маркеры */
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /* подключаем шрифты для всего сайта */
+    font-weight: 400;
+    /* задаем толщину текста */
+    font-size: 14px;
+    /* задаем размер шрифта по умолчанию */
+    line-height: 18px;
+    /* высота строки по умолчанию */
+    color: #0A0A0A;
+}
+
+.header{
+    background-color: #0A0A0A;
+    /* background-color: rgb(100, 200, 150); */
+    padding: 33px 0 32px 0;
+    color: #D9D9D9;
+    font-size: 24px;
+    /* межстрочный интервал */
+    line-height: 29px;
+    /* высота строки */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* внешний отступ */
+    padding: 0 15px; 
+    /* внутренний отступ */
+}
+
+.nav{
+    display: flex;
+    /* ставит блоки в линию */
+    justify-content: space-between;
+    /* растягивает блоки по экрану равными длинами */
+    align-items: center;
+    /* выравнивает объекты по горизонтали по центру */
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu-item{
+    padding-right: 30px;
+    /* отступ между объектами */
+}
