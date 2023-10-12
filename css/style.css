@@ -61,3 +61,30 @@ body{
     padding-right: 30px;
     /* отступ между объектами */
 }
+
+.headline{
+    background-color: #f5f5f7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.title{
+    text-transform: uppercase;
+    margin: 0 0 40px;
+    color: #490E84;
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.headline-img{
+    margin-bottom: 25px;
+}
+
+.headline-btn{
+    display: inline-block;
+    /* открепить от других блоков */
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 27px;
+}
