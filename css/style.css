@@ -54,7 +54,16 @@ body{
 
 .menu{
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    /* для выравнивания элемента по центру */
+}
 
+.phone_number{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+    /* для выравнивания элемента по центру */
 }
 
 .menu-item{
@@ -86,5 +95,49 @@ body{
     /* открепить от других блоков */
     font-weight: 700px;
     font-size: 24px;
-    line-height: 27px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #490E84;
+    padding: 22px 117px 19px;
+    /* расширяем кнопку отступами от текста */
+    border-radius: 30px;
+    /* скругление углов */
+}
+
+.new{
+    padding: 90px 0 150px;
+}
+
+.new-title{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.new-info{
+    display: flex;
+    /* выровнить текст и картинку в две колонки */
+    align-items: center;
+}
+
+.new-text p{
+    max-width: 600px;
+    margin: 0 0 30px;
+}
+
+.new-text b{
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    /* переводим текст и строки в блок для выравнивания по макс длине */
+}
+
+.images-new{
+    margin-left: 150px;
 }
