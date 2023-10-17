@@ -64,6 +64,8 @@ body{
     flex-basis: 0;
     text-align: right;
     /* для выравнивания элемента по центру */
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .menu-item{
@@ -179,6 +181,7 @@ body{
     display: flex;
     background-color: #574B63;
     color: #fff;
+    text-align: center;
 
 }
 
@@ -191,6 +194,7 @@ body{
     margin: 0 0 60px;
     font-size: 32px;
     line-height: 39px;
+    text-align: left;
 }
 
 .contacts-input{
@@ -220,3 +224,60 @@ body{
     text-align: center;
     margin: 30px 0;
 }
+
+.contacts-form button{
+    border: none;
+    color: #490E84;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 19px 81px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 25px 0 0 0;
+}
+
+.footer{
+    background-color: #0A0A0A;
+}
+
+.footer-link{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.footer-inner{
+    color: #717171;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: 0;
+}
+
+@media (max-width: 1200px){
+   .headline-img{
+        max-width: 100%;
+   }
+}
+/* макс значит что условие применяются если размер менее */
+
+@media (max-width: 940px){
+    .images-new{
+        /* display: none; */
+        max-width: 100%;
+    }
+ }
+
+@media (max-width: 560px){
+    .title{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .headline-btn{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 16px 90px;
+    }
+ }
