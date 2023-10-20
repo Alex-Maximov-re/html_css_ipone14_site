@@ -318,6 +318,13 @@ body{
         border: none;
         cursor: pointer;
         position: relative;
+        z-index: 50;
+        /* установление слоя видимости */
+    }
+
+    .logo, .phone_number{
+        position: relative;
+        z-index: 50;
     }
 
     .btn-line{
@@ -359,7 +366,23 @@ body{
     }
 
     .menu{
-        display: none;
+        position: absolute;
+        /* не влияют другие блоки */
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #0A0A0A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+    }
+
+    .menu-item{
+        padding: 50px 0;
+        font-size: 56px;
     }
 
     .phone_number{
